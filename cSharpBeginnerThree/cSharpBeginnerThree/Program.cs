@@ -25,7 +25,7 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
 
 
             // ARRAYS
-            // array of length 3... length is fixed in c sharp
+            // Array of length 3. The length is fixed in C#.
 
             int[] numbers = new int[3]; 
             numbers[0] = 1;
@@ -41,7 +41,8 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
 
 
             // STRINGS
-            // strings are immutable
+            
+            // Strings are immutable
 
                        string firstName = "Mosh";
                        string lastName = "Hamedani";
