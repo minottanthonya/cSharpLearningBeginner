@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using cSharpBeginnerThree.Math
 
 namespace cSharpBeginnerThree //CSharp Fundamentals
 {
@@ -18,11 +19,9 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
             john.LastName = "Smith";
             john.Introduce();
 
-            Calculator calculator = new Calculator();
+            calculator calculator = new calculator();
             var result = calculator.Add(1, 2);
             Console.WriteLine(result);
-
-
 
             // ARRAYS
             // Array of length 3. The length is fixed in C#.
@@ -37,8 +36,6 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
             // Can define values at initialization
 
             string[] names = new string[3] {"Jack", "John", "Mary"};
-
-
 
             // STRINGS
             
@@ -60,9 +57,6 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
                              // Look into the following paths
                              c:\folder1\folder2";
                        Console.WriteLine(text1);
-
-
-
         }
     }
 }
