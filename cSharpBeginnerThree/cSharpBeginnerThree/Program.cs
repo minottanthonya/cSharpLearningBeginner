@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace cSharpBeginnerThree //CSharp Fundamentals
 {
-    class Program
-    {
+    class  Program
+    { 
         static void Main(string[] args)
         {
 
