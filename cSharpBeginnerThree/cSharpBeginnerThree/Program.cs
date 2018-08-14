@@ -46,6 +46,14 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
             var names = new string[3] {"Jack", "John", "Mary"};
 
             // STRINGS
+
+            //This is a standard string concatanation. 
+            //string name = firstName + " " + lastName;
+
+            //String format
+
+            //this is a format that makes strings easier to read.
+            //string actucalName = string.Format("{0} {1}", firstName, lastName);
             
             // Strings are immutable
 
