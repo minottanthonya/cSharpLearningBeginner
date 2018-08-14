@@ -72,9 +72,21 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
                        var text = "Hi John\nLook into the following paths\nc:\\folder1\\folder2";
                        Console.WriteLine(text);
                        var text1 = @"Hi John
-                             // Look into the following paths
+                             Look into the following paths
                              c:\folder1\folder2";
                        Console.WriteLine(text1);
+
+            //ENUMS
+            var method = ShippingMethod.Express;
+            Console.WriteLine((int)method);
+
+            var methodId = 3;
+            Console.WriteLine((ShippingMethod)methodId);
+
+            Console.WriteLine(method.ToString());
+
+            var methodName = "Express";
+            var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
         }
     }
 }
