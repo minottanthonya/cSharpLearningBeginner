@@ -53,13 +53,33 @@ namespace cSharpBeginnerFourControlFlow
 
             // For Loop
 
-            for (int i = 0; i <= 10; i++)
-            {
-                if (i % 2 == 0)
-                    Console.WriteLine(i);
-            }
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    if (i % 2 == 0)
+            //        Console.WriteLine(i);
+            //}
 
+            //Foreach Loop
 
+            //foreach (var number in numbers)
+            //{
+            //    ...
+            //}
+
+            // Do-While Loops
+
+            //do
+            //{
+            //    ...
+            //    i++
+            //} while (if< 10);
+
+            // Break: jumps out of the loop
+
+            // continue: jumps to the next iteration
+        
+
+            //DEMO: FOR LOOP
 
             string name = "John Smith";
             for (int i = 0; i < name.Length; i++)
@@ -73,7 +93,7 @@ namespace cSharpBeginnerFourControlFlow
             foreach (int number in numbers)
                 Console.WriteLine(number);
 
-            // While Loop
+            // DEMO: While Loop
 
             int i = 0;
             while (i <= 10)
