@@ -79,36 +79,36 @@ namespace cSharpBeginnerFourControlFlow
             // continue: jumps to the next iteration
         
 
-            //DEMO: FOR LOOP
+            //DEMO: FOREACH Loop
 
-            string name = "John Smith";
+            var name = "John Smith";
+            // For Loop Version
             for (int i = 0; i < name.Length; i++)
                 Console.WriteLine(name[i]);
-
+            // Foreach Version
             foreach (char character in name)
                 Console.WriteLine(character);
-
-
-            int[] numbers = new int[] { 1, 2, 3, 4 };
-            foreach (int number in numbers)
+            //Foreach loop using an array
+            var numbers = new int[] { 1, 2, 3, 4 };
+            foreach (var number in numbers)
                 Console.WriteLine(number);
 
             // DEMO: While Loop
 
-            int i = 0;
+            var i = 0;
             while (i <= 10)
             {
                 if (i % 2 == 0)
                     Console.WriteLine(i);
+
                 i++;
             }
 
-
-
+            // This is a great example of when to use a while loop
             while (true)
             {
                 Console.Write("Type your name: ");
-                string input = Console.ReadLine();
+                var input = Console.ReadLine();
 
                 if (String.IsNullOrWhiteSpace(input))
                     break;
@@ -116,7 +116,7 @@ namespace cSharpBeginnerFourControlFlow
                 Console.WriteLine("@Echo: " + input);
             }
 
-
+            // DEMO:  Random
 
             Random random = new Random();
 
@@ -124,7 +124,6 @@ namespace cSharpBeginnerFourControlFlow
                 Console.Write((char)('a' + random.Next(0, 26)));
             //Console.Write((char)random.Next(97, 122));
             Console.WriteLine();
-
 
 
             Random random = new Random();
