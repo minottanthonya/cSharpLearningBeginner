@@ -48,28 +48,30 @@ namespace cSharpBeginnerThree //CSharp Fundamentals
             // STRINGS
 
             //This is a standard string concatanation. 
-            //string name = firstName + " " + lastName;
 
-            //String format
+            // string name = firstName + " " + lastName;
 
-            //this is a format that makes strings easier to read.
-            //string actucalName = string.Format("{0} {1}", firstName, lastName);
+            //STRING FORMAT
+
+            //This is a format that makes strings easier to read.
+
+            // string actucalName = string.Format("{0} {1}", firstName, lastName);
             
             // Strings are immutable
 
-                       string firstName = "Mosh";
-                       string lastName = "Hamedani";
+                       var firstName = "Mosh";
+                       var lastName = "Hamedani";
 
-                       string fullName = string.Format("My name is {0} {1}", firstName, lastName);
+                       var fullName = string.Format("My name is {0} {1}", firstName, lastName);
                        Console.WriteLine(fullName);
 
-                       string[] names = new string[3] { "Jack", "John", "Mary" };
-                       string formattedNames = string.Join(",", names);
+                       var names = new string[3] { "Jack", "John", "Mary" };
+                       var formattedNames = string.Join(",", names);
                        Console.WriteLine(formattedNames);
 
-                       string text = "Hi John\nLook into the following paths\nc:\\folder1\\folder2";
+                       var text = "Hi John\nLook into the following paths\nc:\\folder1\\folder2";
                        Console.WriteLine(text);
-                       string text1 = @"Hi John
+                       var text1 = @"Hi John
                              // Look into the following paths
                              c:\folder1\folder2";
                        Console.WriteLine(text1);
