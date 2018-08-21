@@ -20,7 +20,7 @@ namespace cSharpLearningBeginnerEightFiles
 
             if (File.Exists(path))
             {
-                // etc...
+                // Standard if conditional statement
             }
 
             string content = File.ReadAllText(path);
@@ -28,7 +28,7 @@ namespace cSharpLearningBeginnerEightFiles
 
 
 
-            // FILEINFO provides instance methods
+            // FILE INFO provides instance methods
 
             FileInfo fileInfo = new FileInfo(path);
             fileInfo.CopyTo("...");
@@ -36,7 +36,7 @@ namespace cSharpLearningBeginnerEightFiles
 
             if (fileInfo.Exists)
             {
-                // etc....
+                // Standard if conditional statement
             }
 
 
@@ -59,7 +59,7 @@ namespace cSharpLearningBeginnerEightFiles
 
 
 
-            // DIRECTORYINFO
+            // DIRECTORY INFO
 
             DirectoryInfo directoryInfo = new DirectoryInfo("...");
             directoryInfo.GetFiles();
