@@ -110,9 +110,9 @@ namespace cSharpLearningBeginnerSevenText
             builder.Append('-', 10);
             builder.Replace('-', '+');
 
-            // Has .Remove .Insert and all that kind of stuff...
-            // Does not have string searching methods, no .IndexOf or anything...
-            // can access parts of string like:   builder[0]
+            // Has .Remove .Insert and etc.
+            // Does not have string searching methods, no .IndexOf.
+            // Can access parts of string like:   builder[0]
 
             Console.WriteLine(builder);
 
