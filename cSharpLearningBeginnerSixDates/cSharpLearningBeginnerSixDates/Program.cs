@@ -10,7 +10,7 @@ namespace cSharpLearningBeginnerSixDates
     {
         static void Main(string[] args)
         {
-            // DATETIME
+            // DATE TIME
 
             //DateTime dateTime = new DateTime(2015, 1, 1);
             //DateTime now = DateTime.Now;
